@@ -1,4 +1,7 @@
-package com.db.hk.service.impl;
+package com.db.hk.service;
+
+import com.db.hk.DataDTO;
 
 public interface DataService {
+    DataDTO test();
 }

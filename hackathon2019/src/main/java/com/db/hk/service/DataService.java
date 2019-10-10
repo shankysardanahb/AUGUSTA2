@@ -1,7 +1,9 @@
 package com.db.hk.service;
 
-import com.db.hk.DataDTO;
+import com.db.hk.model.DataDTO;
+
+import java.sql.SQLException;
 
 public interface DataService {
-    DataDTO test();
+    DataDTO test() throws SQLException;
 }
